@@ -25,3 +25,7 @@ docker-compose up -d
 docker exec -it docker_postgres_webserver_1 /bin/bash
 sudo docker exec –it nginx-test /bin/bash
 sudo docker exec docker_postgres_webserver_1 /bin/bash
+
+https://faun.pub/how-to-build-a-node-js-application-with-docker-f596fbd3a51
+
+docker build -t johnmogi .
